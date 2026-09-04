@@ -18,3 +18,7 @@ spec:
                 name: wolfenstein
                 port:
                   number: 80
+    tls:
+    - hosts:
+        - wolfram.techdev.local
+      secretName: esm2-techdev-wildcard-tls
