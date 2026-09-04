@@ -16,6 +16,5 @@ spec:
       containers:
         - name: wolfenstein
           image: srenkens/wolfenstein3d:latest
-	  imagePullPolicy: Always
           ports:
             - containerPort: 8888
