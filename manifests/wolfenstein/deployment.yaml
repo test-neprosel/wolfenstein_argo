@@ -17,4 +17,4 @@ spec:
         - name: wolfenstein
           image: testneprosel/wolfenstein3d:latest
           ports:
-            - containerPort: 8888
+            - containerPort: 80
