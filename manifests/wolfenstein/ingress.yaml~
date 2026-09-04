@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: wolfram.techdev.local
+    - host: wolfenstein.local
       http:
         paths:
           - path: /
