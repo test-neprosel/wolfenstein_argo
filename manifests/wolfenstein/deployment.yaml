@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: wolfenstein
-          image: srenkens/wolfenstein3d:latest
+          image: nginx:latest
           ports:
             - containerPort: 8888
